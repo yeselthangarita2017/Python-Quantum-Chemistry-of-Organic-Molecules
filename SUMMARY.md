@@ -1,10 +1,10 @@
-                                      Quantum Chemistry Project Data Analysis Report Part I
+                                      Quantum Chemistry Project - Data Analysis Report-Part I
 Topic: Applications of Data Analysis and Machine Learning (ML) using a published algorithm and logic in the field of Quantum Chemistry
 
 A. Brief description of contribution<br>
   The purpose is to analyze molecular data from 𝑁 = 16,242 training observations to understand the fundamentals for the regression neural network algorithm.
 The goal is to fit a model that can predict ground state energies of molecules made up of six atoms: C, H, N, O, P, and S, based on 𝑝 = 1,275 feature vectors.
-  To be specific, a given molecule in the dataset, for a total of 16,242 molecules, numbered with an index is represented by a p-dimensional feature vector xi where p is the total number of unique entries in the Coulomb matrix (for instance, the upper triangular part of the symmetric 50x50 matrix Cij, unrolled in into a 1,275-dimensional vector) or the number of eigenvalues (for example, a 50-dimensional vector of eigen values) (Himmentogu, B., 2016). The unfolded vectors from the Coulomb matrices were used in this analysis.
+  To be specific, a given molecule in the dataset, for a total of 16,242 molecules, numbered with an index is represented by a p-dimensional feature vector xi where p is the total number of unique entries in the Coulomb matrix (for instance, the upper triangular part of the symmetric 50x50 matrix Cij, unrolled in into a 1,275-dimensional vector) or the number of eigenvalues (for example, a 50-dimensional vector of eigen values) (Himmentogu, B., 2016). The unfolded vectors from the Coulomb matrices were used in this analysis.<br>
 In terms of machine learning algorithms, a penalized (regularized) least squares fit of a linear model using ridge regression, with the model parameters obtained by batch gradient descent was performed. The tuning parameters were chosen using five-fold cross validation, and the best-fit model parameters was inferred on the training dataset conditional on an optimal tuning parameter, which is similar to the approach described by the author on the research article.
 
 B. Data<br>

@@ -18,13 +18,13 @@ In terms of machine learning algorithms, a penalized (regularized) least squares
 * Step 1: 
 Illustration of the effect of the tuning parameter on the inferred ridge regression coefficients by generating a plot using Python of 1,275 lines (one for each of the 𝑝 = 1,275 features), with the 𝑦-axis as 𝐵j,j = 1,2, ... ,1275, and the 𝑥-axis the corresponding log-scaled tuning parameter value log10 (𝜆) that generated the particular 𝐵j. Both axes with labels. Without the log scaling of the tuning parameter, the plot will look distorted.
 
-# *Step 2: 
+* Step 2: 
 Illustration of the effect of the tuning parameter on the cross-validation error by generating a plot using Python with the 𝑦-axis as CV error, and the 𝑥- axis the corresponding log-scaled tuning parameter value log10(𝜆) that
 generated the particular CV(5) error. Both axes with labels. Without the log scaling of the tuning parameter, the plot will look distorted.
 
-# *Step 3: Indication of the value of 𝜆 that generated the smallest CV(5) error.
+* Step 3: Indication of the value of 𝜆 that generated the smallest CV(5) error.
 
-*Step 4: 
+* Step 4: 
 Given the optimal 𝜆, the model was retrain on the entire dataset of 𝑁 = 16,242 observations and the estimates of the 𝑝 = 1,275 best-fit model parameters were provided.
 
 # E. Findings <br>
@@ -42,6 +42,5 @@ For future and, to optimize the model, it seems a good approach and/or suggestio
 # G. References<br>
 B. Himmetoglu, Tree based machine learning framework for predicting ground state energies of molecules, J. Chem. Phys. 145, 134101 (2016).
 
-# Acknowledgements
-  I want to thank Dr. Mark Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning and Dr. Michael DeGiorgio, Associate Professor, Department of Computer and Electrical Engineering and Computer Science, and instructor of the CAP 5625 Computational Foundations of AI course for his guidance about how to structure code.<br>
-
+# Acknowledgements 
+  I want to thank my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley; Dr. Mark Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning and Dr. Michael DeGiorgio, Associate Professor, Department of Computer and Electrical Engineering and Computer Science, and instructor of the CAP 5625 Computational Foundations of AI course for his guidance about how to structure code.<br>

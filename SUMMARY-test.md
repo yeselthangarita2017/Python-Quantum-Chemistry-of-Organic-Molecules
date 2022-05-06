@@ -15,7 +15,7 @@ In terms of machine learning algorithms, a penalized (regularized) least squares
   A discrete grid of seven tuning parameter values 𝜆∈ {10-2 ,10-1 ,100 ,101 ,102 ,103 ,104} was considered where the tuning parameter is evaluated across a wide range of values on a log scale. For each tuning parameter value, gradient descent was used to infer the best-fit model.
 
 # D. Steps<br>
-# *Step 1: 
+# * Step 1: 
 Illustration of the effect of the tuning parameter on the inferred ridge regression coefficients by generating a plot using Python of 1,275 lines (one for each of the 𝑝 = 1,275 features), with the 𝑦-axis as 𝐵j,j = 1,2, ... ,1275, and the 𝑥-axis the corresponding log-scaled tuning parameter value log10 (𝜆) that generated the particular 𝐵j. Both axes with labels. Without the log scaling of the tuning parameter, the plot will look distorted.
 
 # *Step 2: 

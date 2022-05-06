@@ -1,5 +1,5 @@
-                                      Quantum Chemistry Project - Data Analysis Report-Part I
-                                      -------------------------------------------------------
+Quantum Chemistry Project - Data Analysis Report-Part I
+------------------------------------------------------
 Topic: Applications of Data Analysis and Machine Learning (ML) using a published algorithm and logic in the field of Quantum Chemistry
 
 # A. Brief description of contribution<br>

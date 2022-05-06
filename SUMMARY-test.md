@@ -24,7 +24,7 @@ generated the particular CV(5) error. Both axes with labels. Without the log sca
 
 # *Step 3: Indication of the value of 𝜆 that generated the smallest CV(5) error.
 
-# *Step 4: 
+*Step 4: 
 Given the optimal 𝜆, the model was retrain on the entire dataset of 𝑁 = 16,242 observations and the estimates of the 𝑝 = 1,275 best-fit model parameters were provided.
 
 # E. Findings <br>

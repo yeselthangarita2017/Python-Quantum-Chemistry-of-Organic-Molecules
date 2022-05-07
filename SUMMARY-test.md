@@ -18,11 +18,10 @@ The unfolded vectors from the Coulomb matrices were used in this analysis. In te
 
 ### D. Steps<br>
 * Step 1: 
-Illustration of the effect of the tuning parameter on the inferred ridge regression coefficients by generating a plot using Python of 1,275 lines (one for each of the 𝑝 = 1,275 features), with the 𝑦-axis as 𝐵j,j = 1,2, ... ,1275, and the 𝑥-axis the corresponding log-scaled tuning parameter value log10 (𝜆) that generated the particular 𝐵j. Both axes with labels. Without the log scaling of the tuning parameter, the plot will look distorted.
+Illustration of the effect of the tuning parameter on the inferred ridge regression coefficients by generating a plot using Python of 1,275 lines (one for each of the 𝑝 = 1,275 features), with the 𝑦-axis as 𝐵j,j = 1,2, ... ,1275, and the 𝑥-axis the corresponding log-scaled tuning parameter value log10 (𝜆) that generated the particular 𝐵j. 
 
 * Step 2: 
-Illustration of the effect of the tuning parameter on the cross-validation error by generating a plot using Python with the 𝑦-axis as CV error, and the 𝑥- axis the corresponding log-scaled tuning parameter value log10(𝜆) that
-generated the particular CV(5) error. Both axes with labels. Without the log scaling of the tuning parameter, the plot will look distorted.
+Illustration of the effect of the tuning parameter on the cross-validation error by generating a plot using Python with the 𝑦-axis as CV error, and the 𝑥- axis the corresponding log-scaled tuning parameter value log10(𝜆) that generated the particular CV(5) error. 
 
 * Step 3: Indication of the value of 𝜆 that generated the smallest CV(5) error.
 

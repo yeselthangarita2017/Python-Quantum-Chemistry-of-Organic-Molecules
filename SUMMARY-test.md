@@ -29,9 +29,7 @@ Illustration of the effect of the tuning parameter on the cross-validation error
 Given the optimal 𝜆, the model was retrain on the entire dataset of 𝑁 = 16,242 observations and the estimates of the 𝑝 = 1,275 best-fit model parameters were provided.
 
 ### E. Findings <br>
-  The model described above seems to work for this data because the plot generated on deliverable 2 shows the expected behavior of a curvature where, as the tuning parameter lambda increases, the CV error decreases
-The tuning parameter lambda that produces the lowest CV error is 1000 for this dataset
-The model score using the entire dataset suggests the trained model can make accurate predictions approximately 95.6% of the times.
+  The model described above seems to work for this data because the plot generated on deliverable 2 shows the expected behavior of a curvature where, as the tuning parameter lambda increases, the CV error decreases. The tuning parameter lambda that produces the lowest CV error is 1000 for this dataset. The model score using the entire dataset suggests the trained model can make accurate predictions approximately 95.6% of the times.
 
 ### F. Conclusions<br>
   The second value for ‘ridge_regressor.best_score_’ is the main cross-validated score of the best_estimator. The mean

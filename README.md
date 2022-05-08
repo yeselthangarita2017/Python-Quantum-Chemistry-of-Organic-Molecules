@@ -2,8 +2,6 @@
 Analysis of quantum chesmitry data in Organic Chemistry from the published research article in Chemical
 Physics, Himmetoglu, J. Chem. Phys, 2016 using machine learning models, Python, and Google Colab. Final project for the FAU course PHY 6938.
 
-Quantum Chemistry Project - Data Analysis Report-Part I
-------------------------------------------------------
 Topic: Applications of Data Analysis and Machine Learning (ML) using a published algorithm and logic in the field of Quantum Chemistry
 
 ### A. Brief description of contribution<br>

@@ -1,6 +1,6 @@
 # Quantum-Chemistry-Organic-Molecules-(PHY-6938-Final-Project)
 Analysis of quantum chesmitry data in Organic Chemistry from the published research article in Chemical
-Physics, Himmetoglu, J. Chem. Phys, 2016 using machine learning models, Python, and Google Colab. Final project for the FAU course PHY 6938.
+Physics, Himmetoglu, J. Chem. Phys, 2016 using machine learning models, Python, and Google Colab as part of a team. Final project for the FAU course PHY 6938.
 
 Topic: Applications of Data Analysis and Machine Learning (ML) using a published algorithm and logic in the field of Quantum Chemistry
 

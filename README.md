@@ -42,7 +42,7 @@ For future and, to optimize the model, it seems a good approach and/or suggestio
 B. Himmetoglu, Tree based machine learning framework for predicting ground state energies of molecules, J. Chem. Phys. 145, 134101 (2016).
 <br> 
 
-Please visit the author's github account for the dataset used in these projects: https://github.com/bhimmetoglu/RoboBohr/tree/master/data
+Please visit the author's github account for more information: https://github.com/bhimmetoglu/RoboBohr/tree/master/data
 
 ### Acknowledgements 
   I want to thank my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley; Dr. Mark Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning and Dr. Michael DeGiorgio, Associate Professor, Department of Computer and Electrical Engineering and Computer Science, and instructor of the CAP 5625 Computational Foundations of AI course for his guidance about how to structure code.<br>

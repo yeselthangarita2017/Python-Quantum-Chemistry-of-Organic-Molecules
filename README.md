@@ -8,7 +8,7 @@ The goal is to fit a model that can predict ground state energies of molecules m
   To be specific, a given molecule in the dataset, for a total of 16,242 molecules, numbered with an index is represented by a p-dimensional feature vector xi where p is the total number of unique entries in the Coulomb matrix (for instance, the upper triangular part of the symmetric 50x50 matrix Cij, unrolled in into a 1,275-dimensional vector) or the number of eigenvalues (for example, a 50-dimensional vector of eigen values) (Himmentogu, B., 2016). 
 <br>
 <br>
-The unfolded vectors from the Coulomb matrices were used in this analysis. In terms of machine learning algorithms, a penalized (regularized) least squares fit of a linear model using ridge regression, with the model parameters obtained by batch gradient descent was performed. The tuning parameters were chosen using five-fold cross validation, and the best-fit model parameters was inferred on the training dataset conditional on an optimal tuning parameter, which is similar to the approach described by the author on the research article.
+The unfolded vectors from the Coulomb matrices were used in this analysis. In terms of machine learning algorithms, I  a penalized (regularized) least squares fit of a linear model using ridge regression, with the model parameters obtained by batch gradient descent was performed. The tuning parameters were chosen using five-fold cross validation, and the best-fit model parameters was inferred on the training dataset conditional on an optimal tuning parameter, which is similar to the approach described by the author on the research article.
 
 ### B. Data<br>
   Data for these observations are given in the attached roboBohr.csv file, with atoms of each molecule labeled on each row (rows 2 through 16,243), and input features and response given on the columns (with the first row representing a header for each column). There are six quantitative features, given by columns labeled “0”, ‘1”, “2”, “3”, “4” ...”1274”
@@ -18,15 +18,15 @@ The unfolded vectors from the Coulomb matrices were used in this analysis. In te
 
 ### D. Steps<br>
 * Step 1: 
-Illustration of the effect of the tuning parameter on the inferred ridge regression coefficients by generating a plot using Python of 1,275 lines (one for each of the 𝑝 = 1,275 features), with the 𝑦-axis as 𝐵j,j = 1,2, ... ,1275, and the 𝑥-axis the corresponding log-scaled tuning parameter value log10 (𝜆) that generated the particular 𝐵j. 
+Creating a plot showing the effect of the tuning parameter on the inferred ridge regression coefficients of 1,275 lines (one for each of the 𝑝 = 1,275 features), with the 𝑦-axis as 𝐵j,j = 1,2, ... ,1275, and the 𝑥-axis the corresponding log-scaled tuning parameter value log10 (𝜆) that generated the particular 𝐵j. 
 
 * Step 2: 
-Illustration of the effect of the tuning parameter on the cross-validation error by generating a plot using Python with the 𝑦-axis as CV error, and the 𝑥- axis the corresponding log-scaled tuning parameter value log10(𝜆) that generated the particular CV(5) error. 
+Creating a plot showing the effect of the tuning parameter on the cross-validation error with the 𝑦-axis as CV error, and the 𝑥- axis the corresponding log-scaled tuning parameter value log10(𝜆) that generated the particular CV(5) error. 
 
-* Step 3: Indication of the value of 𝜆 that generated the smallest CV(5) error.
+* Step 3: Highlighting the 𝜆 value that generated the smallest CV(5) error.
 
 * Step 4: 
-Given the optimal 𝜆, the model was retrain on the entire dataset of 𝑁 = 16,242 observations and the estimates of the 𝑝 = 1,275 best-fit model parameters were provided.
+Retraining the model on the entire dataset of 𝑁 = 16,242 observations and providing the estimates of the 𝑝 = 1,275 best-fit model parameters using the optimal 𝜆. 
 
 ### E. Findings <br>
   The model described above seems to work for this data because the plot generated on step 2 shows the expected behavior of a curvature where, as the tuning parameter lambda increases, the CV error decreases. The tuning parameter lambda that produces the lowest CV error is 1000 for this dataset. The model score using the entire dataset suggests the trained model can make accurate predictions approximately 95.6% of the times.

@@ -35,16 +35,15 @@ Retraining the model on the entire dataset of 𝑁 = 16,242 observations and pro
   The second value for ‘ridge_regressor.best_score_’ is the main cross-validated score of the best_estimator. The mean
 can be positive or negative. This served as an additional metric to describe the best predictor. Maybe displaying the mean square error may be more informative.
 It seems a good approach to compare these results with those to be obtained without using statistical or ML libraries and provide a discussion as to why the results are different if applicable.
-For future and, to optimize the model, it seems a good approach and/or suggestion to perform a penalized (regularized) least squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
+For future and, to optimize the model, it seems a good approach and/or suggestion to perform a penalized (regularized) least-squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
 
 
 ### G. References<br>
 B. Himmetoglu, Tree based machine learning framework for predicting ground state energies of molecules, J. Chem. Phys. 145, 134101 (2016).
 <br> 
 
-Author's github profile: https://github.com/bhimmetoglu/RoboBohr/tree/master/data
 
 ### Acknowledgements 
-  I want to thank my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley; Dr. Mark Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning and Dr. Michael DeGiorgio, Associate Professor, Department of Computer and Electrical Engineering and Computer Science, and instructor of the CAP 5625 Computational Foundations of AI course for his guidance about how to structure code.<br>
+  I want to thank my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley; Dr. Mark Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning and Dr. Michael DeGiorgio, Associate Professor, Department of Computer and Electrical Engineering and Computer Science, and instructor of the CAP 5625 Computational Foundations of AI course for his guidance about how to structure code in previous courses.<br>
 
 

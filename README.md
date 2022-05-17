@@ -44,6 +44,6 @@ B. Himmetoglu, Tree based machine learning framework for predicting ground state
 
 
 ### Acknowledgements 
-  I want to thank my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley; Dr. Mark Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning and Dr. Michael DeGiorgio, Associate Professor, Department of Computer and Electrical Engineering and Computer Science, and instructor of the CAP 5625 Computational Foundations of AI course for his guidance about how to structure code in previous courses.<br>
+  I want to thank my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley and Dr. Marc Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning.<br>
 
 

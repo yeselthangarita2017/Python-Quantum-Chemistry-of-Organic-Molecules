@@ -37,6 +37,9 @@ can be positive or negative. This served as an additional metric to describe the
 It seems a good approach to compare these results with those to be obtained without using statistical or ML libraries and provide a discussion as to why the results are different if applicable.
 For future and, to optimize the model, it seems a good approach and/or suggestion to perform a penalized (regularized) least-squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
 
+1. Where the models from the paper optimized? other team members found an interesting data pattern using PCA and other algorithms and optimized the decision tree model. 
+
+2. Why is this important? this type of analysis may provide more insights about identification and prediction of organic molecules in foods. 
 
 ### G. References<br>
 B. Himmetoglu, Tree based machine learning framework for predicting ground state energies of molecules, J. Chem. Phys. 145, 134101 (2016).

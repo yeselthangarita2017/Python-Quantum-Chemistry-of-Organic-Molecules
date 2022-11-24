@@ -1,5 +1,5 @@
 # Quantum-Chemistry-Organic-Molecules-(PHY-6938-Final-Project)
-Analysis of quantum chesmitry data in Organic Chemistry from the published research article in Chemical
+Analysis of quantum chemistry data in Organic Chemistry from the published research article in Chemical
 Physics, Himmetoglu, J. Chem. Phys, 2016 using machine learning models, Python, and Google Colab contribution as part of a team. Final project for the FAU course PHY 6938.
 
 ### A. Brief description of contribution<br>

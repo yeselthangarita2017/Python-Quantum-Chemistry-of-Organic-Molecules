@@ -12,10 +12,10 @@ To be specific, a given molecule in the dataset, for a total of 16,242 molecules
 
 The unfolded vectors from the Coulomb matrices were used in this analysis. In terms of machine learning algorithms, I  a penalized (regularized) least squares fit of a linear model using ridge regression, with the model parameters obtained by batch gradient descent was performed. The tuning parameters were chosen using five-fold cross validation, and the best-fit model parameters was inferred on the training dataset conditional on an optimal tuning parameter, which is similar to the approach described by the author on the research article.
 
-## Data
+## Dataset
 Data for these observations are given in the attached roboBohr.csv file, with atoms of each molecule labeled on each row (rows 2 through 16,243), and input features and response given on the columns (with the first row representing a header for each column). There are six quantitative features, given by columns labeled “0”, ‘1”, “2”, “3”, “4” ...”1274”
 
-### Effect of tunning parameter on inferred regression coefficients.
+## Effect of tunning parameter on inferred regression coefficients.
 A discrete grid of seven tuning parameter values 𝜆∈ {10-2 ,10-1 ,100 ,101 ,102 ,103 ,104} was considered where the tuning parameter is evaluated across a wide range of values on a log scale. For each tuning parameter value, gradient descent was used to infer the best-fit model.
 
 ## Methodology

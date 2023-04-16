@@ -1,4 +1,4 @@
-# Python Quantum Chemistry of Organic Molecules (PHY-6938-Final-Project)
+# Quantum Chemistry of Organic Molecules Analysis with Python (PHY-6938-Final-Project)
 
 Analysis of quantum chemistry data in Organic Chemistry from the published research article in Chemical
 Physics, [Himmetoglu, J. Chem. Phys, 2016](https://pubmed.ncbi.nlm.nih.gov/27782427/) using machine learning models, Python, and Google Colab contribution as part of a team. Final project for the FAU course PHY 6938.

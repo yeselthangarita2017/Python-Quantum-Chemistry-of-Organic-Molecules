@@ -39,18 +39,7 @@ The model described above seems to work for this data because the plot generated
 The second value for ‘ridge_regressor.best_score_’ is the main cross-validated score of the best_estimator. The mean
 can be positive or negative. This served as an additional metric to describe the best predictor. Maybe displaying the mean square error may be more informative. It could be a good approach to compare these results with those to be obtained without using statistical or ML libraries and provide a discussion as to why the results are different if applicable.
 
-
-For future and, to optimize the model, it could be good approach and/or suggestion to perform a penalized (regularized) least-squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
-
-### FAQs
-
-1. Were the models from the paper optimized?  Yes, they were. My contribution provided deeper insights about the nature of the data using linear regression and regularization. Other members contributions were: a data pattern using PCA and other algorithms, and optimization of the decision tree model based on their knowledge on quantum chemistry. 
-
-2. Why is this important? this type of analysis may provide further insights about the identification and prediction of organic molecules in foods that we consume in the daily basis. 
-
-## References
-B. Himmetoglu, Tree based machine learning framework for predicting ground state energies of molecules, J. Chem. Phys. 145, 134101 (2016).
-<br> 
+* For future and, to optimize the model, it could be good approach and/or suggestion to perform a penalized (regularized) least-squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
 
 
 ### Acknowledgements 

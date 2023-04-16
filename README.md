@@ -43,6 +43,6 @@ can be positive or negative. This served as an additional metric to describe the
 
 
 ## Acknowledgements 
-I want to thank my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley and Dr. Mark Antonio Awada, Visiting Physics professor, for his guidance and teaching about Data Science and Machine Learning.<br>
+Thank you to my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley, for their commitment and teamwork, and professor Dr. Mark Antonio Awada, for his guidance and teachings about Data Science and Machine Learning.<br>
 
 

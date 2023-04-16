@@ -3,7 +3,7 @@
 Analysis of quantum chemistry data in Organic Chemistry from the published research article in Chemical
 Physics, [Himmetoglu, J. Chem. Phys, 2016](https://pubmed.ncbi.nlm.nih.gov/27782427/) using machine learning models, Python, and Google Colab contribution as part of a team. Final project for the FAU course PHY 6938.
 
-## Brief description of contribution
+## Our Task
 The purpose is to analyze molecular data from 𝑁 = 16,242 training observations to understand the fundamentals for the regression neural network algorithm.
 
 The goal is to fit a model that can predict ground state energies of molecules made up of six atoms: C, H, N, O, P, and S, based on 𝑝 = 1,275 feature vectors.

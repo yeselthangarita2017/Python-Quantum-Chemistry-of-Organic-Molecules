@@ -42,7 +42,3 @@ can be positive or negative. This served as an additional metric to describe the
 * For future and, to optimize the model, it could be good approach and/or suggestion to perform a penalized (regularized) least-squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
 
 
-## Acknowledgements 
-Thank you to my team, Sergio Sempertegui, Fernanda Jongewaard de Boer, and Joseph McKinley, for their commitment and teamwork, and professor Dr. Mark Antonio Awada, for his guidance and teachings about Data Science and Machine Learning.<br>
-
-

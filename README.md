@@ -39,6 +39,6 @@ The model described above seems to work for this data because the plot generated
 The second value for ‘ridge_regressor.best_score_’ is the main cross-validated score of the best_estimator. The mean
 can be positive or negative. This served as an additional metric to describe the best predictor. Maybe displaying the mean square error may be more informative. It could be a good approach to compare these results with those to be obtained without using statistical or ML libraries and provide a discussion as to why the results are different if applicable.
 
-For future and, to optimize the model, it could be good approach and/or suggestion to perform a penalized (regularized) least-squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
+* For future and, to optimize the model, we could perform a penalized (regularized) least-squares fit of a linear model using elastic net, with the model parameters obtained by coordinate descent.
 
 
